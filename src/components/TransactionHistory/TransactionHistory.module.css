@@ -1,0 +1,27 @@
+.transactionHistory {
+    font-size: 12px;
+    border-spacing: 0px;
+}
+
+.head {
+    color: azure;
+    background-color: rgb(0, 162, 255);
+}
+
+th {
+    width: 200px;
+    height: 30px;
+}
+
+td {
+    font-weight: 600;
+    color: #00000094;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+tr:nth-child(2n) {
+    background-color: #00000014;
+}
