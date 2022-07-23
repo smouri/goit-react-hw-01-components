@@ -50,7 +50,7 @@
 }
 
 .label {
-    color: rgb(205, 133, 133);
+    color: rgba(0, 0, 0, 0.524);
     font-size: 12px;
     margin-right: 5px;
 }
