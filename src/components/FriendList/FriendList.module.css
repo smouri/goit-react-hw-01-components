@@ -1,0 +1,41 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0 10px;
+}
+
+.item {
+    display: flex;
+    width: 250px;
+    align-items: center;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+}
+
+.status {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    border-color: transparent;
+    margin: 10px;
+}
+
+.offline {
+    composes: status;
+    background-color: red;
+}
+
+.online {
+    composes: status;
+    background-color: green;
+}
+
+.avatar {
+    margin-right: 10px;
+}
